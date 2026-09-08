@@ -1,0 +1,38 @@
+VENÜS TERMAL — EMR HOTSPOT IP / PORT FORMU (elle doldur)
+========================================================
+Tarih: _______________   Teknisyen: _______________
+
+PORTLAR (SEN YAZ)
+  WEB_PORT .............. ________________
+  API_PORT .............. ________________
+
+IP / KABLO
+  EMR_SERVER_IP ......... ________________
+  EMR_SERVER_IFACE ...... ________________
+  MIKROTIK_IP ........... ________________
+  HOTSPOT_GATEWAY_IP .... ________________
+  DHCP START ............ ________________
+  DHCP END .............. ________________
+  WAN_IP ................ ________________
+  WAN_GATEWAY ........... ________________
+  SSID .................. ________________
+  RADIUS_HOST ........... ________________
+
+PING (OK/FAIL)
+  EMR sunucu ............ [ ]
+  MikroTik .............. [ ]
+  Hotspot GW ............ [ ]
+
+SERVİS
+  Web dinliyor .......... [ ]
+  API dinliyor .......... [ ]
+  RADIUS UDP 1812 ....... [ ]
+
+CANLI TEST
+  WA gönder → CNA kalkar  [ ]
+  5 dk → sert kesim ..... [ ]
+  WA link → 24s ......... [ ]
+  Android PENDING_OTP ... [ ]
+  iPhone whatsapp-link .. [ ]
+
+Not: Değerleri deploy/site.env içine de yaz.
